@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BigRedButton" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="BigRedButton">
+        <item name="android:backgroundTint">@color/green_button</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="Theme.BigRedButton" parent="Base.Theme.BigRedButton" />
+</resources>
